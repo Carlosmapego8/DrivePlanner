@@ -4,9 +4,9 @@
 
 ### Entregable
 
-Código donde estén presentes las clases necesarias para resolver el problema planteado en las historias de usuario 
-[HU1](user_stories.md#hu1-Mercedes-Profesora-que-quiere-conocer-los-repartos-de-coches-y-pasajeros) 
-y [HU2](user_stories.md#hu2-Elisa-reparto-automático-de-coches-y-profesores).
+Código donde estén presentes las clases necesarias para resolver el problema planteado en la historias de usuario 
+[HU1](user_stories.md#hu1-Elisa-reparto-automático-de-coches-y-profesores) 
+
 
 ### Viabilidad
 
