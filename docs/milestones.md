@@ -2,19 +2,16 @@
 
 ## [M0] Milestone 0: Modelado del problema
 
-Se busca analizar las [historias de usuario](user_stories.md) para identificar los conceptos clave del dominio del problema y plasmarlos en código.
-
 ### Entregable
 
-Código donde estén presentes los elementos clave del problema definido en las historias de usuario [HU1](user_stories.md#hu1-Mercedes-Profesora-que-quiere-conocer-los-repartos-de-coches-y-pasajeros) y [HU2](user_stories.md#hu2-Elisa-reparto-automático-de-coches-y-profesores). Esto incluye:
-
-- Identificación de las entidades principales involucradas en el problema.
+Código donde estén presentes las clases necesarias para resolver el problema planteado en las historias de usuario 
+[HU1](user_stories.md#hu1-Mercedes-Profesora-que-quiere-conocer-los-repartos-de-coches-y-pasajeros) 
+y [HU2](user_stories.md#hu2-Elisa-reparto-automático-de-coches-y-profesores).
 
 ### Viabilidad
 
-El código entregado debe cumplir con los siguientes requisitos para ser aprobado:
+El código entregado contendrá las clases que se estimen necesarias.
 
-- Cobertura completa del dominio del problema: El modelo debe representar todas las entidades descritas en las historias de usuario mencionadas.
 
 ## [M1] Milestone 1: Implementación de la asignación automática de conductores y pasajeros
 
