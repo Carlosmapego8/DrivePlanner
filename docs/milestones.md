@@ -13,10 +13,9 @@ Código donde estén presentes las clases necesarias para resolver el problema p
 El código entregado contendrá las estructuras necesarias que cubran el problema planteado en la HU especificada anteriormente.
 
 
-## [M1] Milestone 1: Implementación de la asignación automática de conductores y pasajeros
+## [M1] Milestone 1: Asignación automática de conductores y pasajeros
 
 Se busca conseguir un sistema que permita la asignación automática de conductores y pasajeros de la forma más equitativa y eficiente posible.
-
 
 ### Entregable
 
