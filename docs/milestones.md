@@ -4,18 +4,19 @@
 
 ### Entregable
 
-Código donde estén presentes las clases necesarias para resolver el problema planteado en la historias de usuario 
+Código donde estén presentes las clases necesarias para resolver el problema planteado en la historia de usuario 
 [HU1](user_stories.md#hu1-Elisa-reparto-automático-de-coches-y-profesores) 
 
 
 ### Viabilidad
 
-El código entregado contendrá las clases que se estimen necesarias.
+El código entregado contendrá las estructuras necesarias que cubran el problema planteado en la HU especificada anteriormente.
 
 
 ## [M1] Milestone 1: Implementación de la asignación automática de conductores y pasajeros
 
-Se busca implementar la posibilidad de asignar de forma automática conductores y pasajeros.
+Se busca conseguir un sistema que permita la asignación automática de conductores y pasajeros de la forma más equitativa y eficiente posible.
+
 
 ### Entregable
 
@@ -23,7 +24,9 @@ Código que permita asignar conductores y pasajeros de forma automática, en bas
 
 ### Viabilidad
 
-Cuando el código entregado pase los tests donde se compruebe que se pueden asignar conductores y pasajeros de forma automática. Además, se debe comprobar que la asignación automática es equitativa y eficiente.
+Cuando el código entregado pase los tests donde se compruebe que se pueden asignar conductores y pasajeros de forma automática. 
+Además, se debe comprobar que la asignación automática es equitativa y eficiente.
+
 
 # Milestones adicionales
 
@@ -37,4 +40,5 @@ Código que permita consultar estadísticas sobre el uso de los coches.
 
 ### Viabilidad
 
-Se considera viable cuando se pueda realizar una consulta sobre las estadísticas de los viajes.
+Se considera viable cuando se pueda realizar una consulta sobre las estadísticas de los viajes y que las estadísticas consultadas sean correctas.
+
