@@ -23,7 +23,3 @@ En base al modelo del problema creado en el Milestone 0, se debe entregar códig
 
 Cuando el código entregado pase los tests de aceptación, donde se cumplan las condiciones de la 
 [HU1](docs/user_stories.md#hu1-elisa-reparto-equitativo-de-coches-y-profesores).
-
-Se debe comprobar:
-- Que la asignación es equitativa, se considera equitativa cuando todos los profesores con coche conducen la misma cantidad de kilómetros.
-- Que todos los profesores tienen asignados un coche para todos los días que van a trabajar.
