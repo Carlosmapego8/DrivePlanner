@@ -4,9 +4,8 @@
 
 ### Entregable
 
-Código donde estén presentes las clases necesarias para resolver el problema planteado en la historia de usuario 
-[HU1](user_stories.md#hu1-Elisa-reparto-automático-de-coches-y-profesores) 
-
+Código donde estén presentes las estructuras de datos que sirvan de base para resolver el problema planteado en la 
+[HU1](docs/user_stories.md#hu1-elisa-reparto-equitativo-de-coches-y-profesores).
 
 ### Viabilidad
 
