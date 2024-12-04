@@ -6,11 +6,13 @@ export class Viaje{
     private _kilometros: number;
     private _conductor: Profesor;
     private _pasajeros: Profesor[];
+    private _salida: string;
 
-    constructor(fecha: Date, kilometros: number){
+    constructor(fecha: Date, kilometros: number, salida: string){
         this._fecha = fecha;
         this._kilometros = kilometros; 
         this._conductor = null;
-        this._pasajeros = []
+        this._pasajeros = [];
+        this._salida = salida;
     }
 }
