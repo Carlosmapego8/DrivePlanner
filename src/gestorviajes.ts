@@ -1,4 +1,3 @@
-import { Coche } from "./coche";
 import { Profesor } from "./profesor";
 import { Viaje } from "./viaje";
 
