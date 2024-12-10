@@ -5,10 +5,10 @@ import { Viaje } from "./viaje";
 
 class GestorViajes{
 
-    private _viajesDisponibles: Viaje[];
-    private _profesoresDisponibles: Profesor[];
+    private _viajesDisponibles: Date[];
+    private _profesoresDisponibles: string[];
 
-    constructor(viajes: Viaje[], profesores: Profesor[]){
+    constructor(viajes: Date[], profesores: string[]){
         this._viajesDisponibles = viajes;
         this._profesoresDisponibles = profesores;
     }
