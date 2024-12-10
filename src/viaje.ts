@@ -2,6 +2,16 @@ import { Coche } from "./coche";
 import { Profesor } from "./profesor";
 
 export class Viaje{
+     /**
+     * Representa un viaje
+     * _fecha: representa la fecha en la que se realizará el viaje. Identifica al viaje por completo
+     * _conductor: representa el identificador al conductor del viaje, se calculará por la lógica de negocio. 
+     * _pasajeros: representan a los identificadores a los pasajeros del viaje, los calculará la lógica de negocio.
+     * _salida: representa la hora del día a la que saldrá el viaje
+     * _coche: representa el identificador del coche en el que se viajará, lo calculará la lógica de negocio.
+     * _plazasOcupadas: representan las plazas ocupadas en un viaje (por acompañantes, transporte de objetos, ...), este valor reducirá la capacidad inicial del coche
+     */
+    
     private _fecha: Date;
     private _conductor: string;
     private _pasajeros: string[];
