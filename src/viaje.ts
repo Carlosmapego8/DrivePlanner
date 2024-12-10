@@ -10,6 +10,11 @@ export class Viaje{
     private _plazasOcupadas: number;
 
     constructor(fecha: Date, salida: string, plazasOcupadas: number){
+        
+        if (plazasOcupadas < 0) {
+            throw new Error("Las plazas ocupadas tienen que ser un numero positivo.");
+        }
+        
         this._fecha = fecha;
         this._conductor = null;
         this._coche = null;
