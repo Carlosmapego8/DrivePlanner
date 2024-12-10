@@ -1,4 +1,3 @@
-import { Coche } from "./coche";
 import { Profesor } from "./profesor";
 
 export class Viaje{
@@ -8,7 +7,6 @@ export class Viaje{
      * _conductor: representa el identificador al conductor del viaje, se calculará por la lógica de negocio. 
      * _pasajeros: representan a los identificadores a los pasajeros del viaje, los calculará la lógica de negocio.
      * _salida: representa la hora del día a la que saldrá el viaje
-     * _coche: representa el identificador del coche en el que se viajará, lo calculará la lógica de negocio.
      * _plazasOcupadas: representan las plazas ocupadas en un viaje (por acompañantes, transporte de objetos, ...), este valor reducirá la capacidad inicial del coche
      */
     
@@ -16,7 +14,6 @@ export class Viaje{
     private _conductor: string;
     private _pasajeros: string[];
     private _salida: string;
-    private _coche: string;
     private _plazasOcupadas: number;
 
     constructor(fecha: Date, salida: string, plazasOcupadas: number){
@@ -27,7 +24,6 @@ export class Viaje{
         
         this._fecha = fecha;
         this._conductor = null;
-        this._coche = null;
         this._pasajeros = [];
         this._salida = salida;
         this._plazasOcupadas = number;
