@@ -12,7 +12,7 @@ export class Viaje{
     
     private _fecha: Date;
     private _conductor: string;
-    private _pasajeros: string[];
+    private _pasajeros: Set<string>;
     private _salida: string;
     private _plazasOcupadas: number;
 
@@ -24,7 +24,7 @@ export class Viaje{
         
         this._fecha = fecha;
         this._conductor = null;
-        this._pasajeros = [];
+        this._pasajeros = new Set();
         this._salida = salida;
         this._plazasOcupadas = number;
     }
