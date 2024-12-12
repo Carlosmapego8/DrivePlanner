@@ -11,8 +11,8 @@ export class Viaje{
      */
     
     private _fecha: Date;
-    private _conductor: string;
-    private _pasajeros: Set<string>;
+    private _conductor: Profesor;
+    private _pasajeros: Set<Profesor>;
     private _salida: string;
     private _plazasOcupadas: number;
 
