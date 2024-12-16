@@ -5,9 +5,11 @@ export type Viaje{
      * Representa un viaje
      * _fecha: representa la fecha en la que se realizará el viaje. Identifica al viaje por completo
      * _salida: representa la hora del día a la que saldrá el viaje
+     * _viajeIds: indica si el viaje es de ida o de vuelta del colegio
      */
     readonly _fecha: Date;
     readonly _horaSalida: string;
+    readonly _viajeIda: boolean;
     
 }
 
