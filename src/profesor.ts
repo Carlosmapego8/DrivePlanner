@@ -9,8 +9,8 @@ export class Profesor{
     
     private readonly _nombre: string;
     private readonly _coches: Record<string, int>;
-    private readonly _horaEntrada: string; //En formato ""HH:mm"
-    private readonly _horaSalida: string; //En formato ""HH:mm"
+    private readonly _horaEntrada: string; 
+    private readonly _horaSalida: string; 
 
     constructor(nombre: string, coches: Record<string, int>, horaEntrada: string, horaSalida: string){
         this._nombre = nombre;
