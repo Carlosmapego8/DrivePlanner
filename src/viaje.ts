@@ -13,10 +13,10 @@ export class Viaje{
     private _fecha: Date;
     private _conductor: Profesor;
     private _pasajeros: Set<Profesor>;
-    private _salida: string;
+    private _horaSalida: string;
     private _plazasOcupadas: number;
 
-    constructor(fecha: Date, salida: string, plazasOcupadas: number){
+    constructor(fecha: Date, plazasOcupadas: number){
         
         if (plazasOcupadas < 0) {
             throw new Error("Las plazas ocupadas tienen que ser un numero positivo.");
@@ -24,8 +24,8 @@ export class Viaje{
         
         this._fecha = fecha;
         this._conductor = null;
+        this._horaSalida = ""
         this._pasajeros = new Set();
-        this._salida = salida;
         this._plazasOcupadas = number;
     }
 }
