@@ -10,11 +10,11 @@ export class Viaje{
      * _plazasOcupadas: representan las plazas ocupadas en un viaje (por acompañantes, transporte de objetos, ...), este valor reducirá la capacidad inicial del coche
      */
     
-    private _fecha: Date;
+    private readonly _fecha: Date;
     private _conductor: Profesor;
     private _pasajeros: Set<Profesor>;
     private _horaSalida: string;
-    private _plazasOcupadas: number;
+    private readonly _plazasOcupadas: number;
 
     constructor(fecha: Date, plazasOcupadas: number){
         
