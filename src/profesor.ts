@@ -15,7 +15,20 @@ export class Profesor{
     constructor(nombre: string, coches: Record<string, int>, horaEntrada: string, horaSalida: string){
         this._nombre = nombre;
         this._coches = coches;
-        this._horaEntrada = horaEntrada;
-        this._horaSalida = horaSalida;
+        
+       const timeRegex = /^([01]\d|2[0-3]):([0-5]\d)$/;
+
+        if (!timeRegex.test(horaEntrada)) {
+            throw new Error(`El string "${time}" no está en el formato HH:mm válido.`);
+        } else{
+            this._horaEntrada = horaEntrada;
+        }
+        
+        if (!timeRegex.test(horaSalida)) {
+            throw new Error(`El string "${time}" no está en el formato HH:mm válido.`);
+        } else{
+            this._horaSalida = horaSalida;
+        }
+              
     }
 }
