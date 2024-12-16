@@ -11,11 +11,9 @@ export type Viaje{
     
 }
 
-export class AsignacionViajes{
-   
-    private _asignaciones: Record<Viaje, Set<Profesor>>;   
-
-    constructor(){
-         this._asignaciones = New Record();
-    }
+export type ViajesAsignados{
+   /**
+     * Representa la asignación de viajes. En cada viaje se asigna una lista de profesores que viajarán en él. Lo calcula la lógica de negocio
+   */
+    Record<Viaje, Set<Profesor>>;   
 }
