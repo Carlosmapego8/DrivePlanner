@@ -13,7 +13,7 @@ export type Viaje{
 
 export type ViajesAsignados{
    /**
-     * Representa la asignación de viajes. En cada viaje se asigna una lista de profesores que viajarán en él. Lo calcula la lógica de negocio
+     * Representa la asignación de viajes. En cada viaje se asigna una lista de profesores que viajarán en él y la matrícula del coche en caso de ser el conductor del viaje. Lo calcula la lógica de negocio
    */
-    Record<Viaje, Set<Profesor>>;   
+    Record<Viaje, Record<Profesor, string>>;   
 }
