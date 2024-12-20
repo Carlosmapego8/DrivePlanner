@@ -19,3 +19,13 @@ export type ViajesAsignados{
    */
     Record<Viaje, Record<Profesor, string>>;   
 }
+
+/*
+* Función encargada de realizar la lógica de negocio
+* Recibe los viajes a asignar y los profesores que deben ser asignados
+* Devuelve la asignación de los profesores y viajes
+*/
+function calcularAsignacionViajes (viajes: Set<Viaje>, profesores: Set<Profesor>): ViajesAsignados{
+
+      return nil;      
+}
